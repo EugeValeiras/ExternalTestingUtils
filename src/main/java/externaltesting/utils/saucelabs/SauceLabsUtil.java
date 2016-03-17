@@ -16,15 +16,15 @@ import externaltesting.utils.TestEnvironment;
 
 public class SauceLabsUtil implements ExternalTestRunner {
  
-	private String username = "Insynctive5";
-	private String password = "3a33c176-4758-4d4b-9cb6-1d51a018c430";
+	private String username;
+	private String password;
 	
 	private SauceREST rest;
 	
 	private final int COMMAND_TIMEOUT = 420;
 	private final int IDLE_COMMAND_TIMEOUT = 300;
 	
-	public SauceLabsUtil() {
+	public SauceLabsUtil(String username, String password) {
 		rest = new SauceREST(username, password);
 	}
 	

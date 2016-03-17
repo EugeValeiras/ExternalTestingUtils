@@ -16,8 +16,13 @@ import externaltesting.utils.TestEnvironment;
 
 public class CrossBrowserUtil implements ExternalTestRunner {
 
-	private String username = "rgonzalez@insynctive.com";
-	private String password = "u89bf8bdf84b358d";
+	private String username;
+	private String password;
+	
+	public CrossBrowserUtil(String username, String password) {
+		this.username = username;
+		this.password = password;
+	}
 	
 	public RemoteWebDriver getRemoteWebDriver(String sessionName, TestEnvironment testEnvironment) throws MalformedURLException {
 

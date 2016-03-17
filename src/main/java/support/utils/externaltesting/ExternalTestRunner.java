@@ -1,4 +1,4 @@
-package externaltesting.utils;
+package support.utils.externaltesting;
 
 import java.io.IOException;
 import java.net.MalformedURLException;

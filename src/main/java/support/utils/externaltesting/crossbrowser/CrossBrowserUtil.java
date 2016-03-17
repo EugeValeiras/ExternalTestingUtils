@@ -1,4 +1,4 @@
-package externaltesting.utils.crossbrowser;
+package support.utils.externaltesting.crossbrowser;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -9,9 +9,9 @@ import org.json.JSONObject;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-import externaltesting.utils.ExternalTestRunner;
-import externaltesting.utils.MakeCurl;
-import externaltesting.utils.TestEnvironment;
+import support.utils.externaltesting.ExternalTestRunner;
+import support.utils.externaltesting.MakeCurl;
+import support.utils.externaltesting.TestEnvironment;
 
 
 public class CrossBrowserUtil implements ExternalTestRunner {

@@ -1,4 +1,4 @@
-package externaltesting.utils.saucelabs;
+package support.utils.externaltesting.saucelabs;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -11,8 +11,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.saucelabs.saucerest.SauceREST;
 
-import externaltesting.utils.ExternalTestRunner;
-import externaltesting.utils.TestEnvironment;
+import support.utils.externaltesting.ExternalTestRunner;
+import support.utils.externaltesting.TestEnvironment;
 
 public class SauceLabsUtil implements ExternalTestRunner {
  

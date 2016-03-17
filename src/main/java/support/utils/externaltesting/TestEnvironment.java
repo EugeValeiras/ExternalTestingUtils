@@ -1,4 +1,4 @@
-package externaltesting.utils;
+package support.utils.externaltesting;
 
 import org.openqa.selenium.remote.BrowserType;
 

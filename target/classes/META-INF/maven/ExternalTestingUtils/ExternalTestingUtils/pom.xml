@@ -1,11 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>ExternalTestingUtils</groupId>
-  <artifactId>ExternalTestingUtils</artifactId>
-  <version>1.0.0</version>
-  <name>External Testing Utils</name>
-  
-  <properties>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ExternalTestingUtils</groupId>
+	<artifactId>ExternalTestingUtils</artifactId>
+	<version>1.0.0</version>
+	<name>External Testing Utils</name>
+
+	<properties>
 		<!-- SPRING MVC -->
 		<spring-version>4.0.3.RELEASE</spring-version>
 		<spring-test>4.0.3.RELEASE</spring-test>
@@ -39,24 +40,24 @@
 
 		<!-- LOG 4J -->
 		<slf4j.version>1.7.10</slf4j.version>
-        <logback.version>1.0.13</logback.version>
+		<logback.version>1.0.13</logback.version>
 		<org.slf4j>1.7.5</org.slf4j>
 	</properties>
 
 	<dependencies>
-	
+
 		<dependency>
-            <groupId>io.airbrake</groupId>
-            <artifactId>airbrake-java</artifactId>
-            <version>2.2.0</version>
-        </dependency>
-	
+			<groupId>io.airbrake</groupId>
+			<artifactId>airbrake-java</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>16.0.1</version>
 		</dependency>
-	
+
 		<dependency>
 			<groupId>net.oauth.core</groupId>
 			<artifactId>oauth</artifactId>
@@ -71,25 +72,25 @@
 
 		<!-- log4j -->
 		<dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>${slf4j.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>log4j-over-slf4j</artifactId>
-            <version>${slf4j.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>jul-to-slf4j</artifactId>
-            <version>${slf4j.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>${logback.version}</version>
-        </dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>log4j-over-slf4j</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jul-to-slf4j</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>${logback.version}</version>
+		</dependency>
 
 		<!-- Use Apache HttpClient as HTTP Client -->
 		<dependency>
@@ -252,10 +253,10 @@
 			<version>2.6.2</version>
 		</dependency>
 		<dependency>
-		  <groupId>com.fasterxml.jackson.datatype</groupId>
-		  <artifactId>jackson-datatype-hibernate4</artifactId>
-		  <version>2.6.2</version>
-		</dependency>    
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-hibernate4</artifactId>
+			<version>2.6.2</version>
+		</dependency>
 
 		<!-- Servlet API, JSTL -->
 		<dependency>
@@ -285,45 +286,67 @@
 			<version>1</version>
 		</dependency>
 
-		<!-- Twilio SDK-->
+		<!-- Twilio SDK -->
 		<dependency>
 			<groupId>com.twilio.sdk</groupId>
 			<artifactId>twilio-java-sdk</artifactId>
 			<version>5.4.0</version>
 		</dependency>
-		
+
 		<!-- REFLECTION -->
 		<dependency>
-	        <groupId>org.reflections</groupId>
-	        <artifactId>reflections</artifactId>
-	        <version>0.9.9-RC1</version>
-	    </dependency>
-         
-         <!-- SauceLabs NO COMPATIBLE-->
+			<groupId>org.reflections</groupId>
+			<artifactId>reflections</artifactId>
+			<version>0.9.9-RC1</version>
+		</dependency>
+
+		<!-- SauceLabs NO COMPATIBLE -->
 		<dependency>
-		    <groupId>org.seleniumhq.selenium</groupId>
-		    <artifactId>selenium-java</artifactId>
-		    <version>2.45.0</version>
-		</dependency> 
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>2.45.0</version>
+		</dependency>
 		<dependency>
 			<groupId>com.saucelabs</groupId>
 			<artifactId>saucerest</artifactId>
 			<version>1.0.27</version>
 		</dependency>
-		
+
 		<!-- SlackUtils - Eugenio -->
 		<dependency>
-		    <groupId>com.github.EugeValeiras</groupId>
-		    <artifactId>SlackUtils</artifactId>
-		    <version>1.0.0</version>
-		</dependency>  
+			<groupId>com.github.EugeValeiras</groupId>
+			<artifactId>SlackUtils</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
-	
+
 	<repositories>
 		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
 		</repository>
 	</repositories>
-  
+
+	<build>
+		<plugins>
+			<!-- ECLIPSE MAVEN PLUGINS -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.6</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.2</version>
+				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+					<encoding>UTF-8</encoding>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>

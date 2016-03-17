@@ -1,4 +1,4 @@
-package externaltesting.utils;
+package support.utils.externaltesting;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -316,7 +316,7 @@
 		<dependency>
 			<groupId>com.github.EugeValeiras</groupId>
 			<artifactId>SlackUtils</artifactId>
-			<version>1.0.0</version>
+			<version>30194d57eb33d0d407cdb412a4618a505658c6c2</version>
 		</dependency>
 	</dependencies>
 

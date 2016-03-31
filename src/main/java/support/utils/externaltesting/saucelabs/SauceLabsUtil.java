@@ -25,6 +25,8 @@ public class SauceLabsUtil implements ExternalTestRunner {
 	private final int IDLE_COMMAND_TIMEOUT = 300;
 	
 	public SauceLabsUtil(String username, String password) {
+		this.username = username;
+		this.password = password;
 		rest = new SauceREST(username, password);
 	}
 	
@@ -50,6 +52,7 @@ public class SauceLabsUtil implements ExternalTestRunner {
 
 	@Override
 	public RemoteWebDriver getRemoteWebDriver(String sessionName, TestEnvironment testEnvironment) throws MalformedURLException {
+		
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		
 		capabilities.setCapability("command-timeout", COMMAND_TIMEOUT);

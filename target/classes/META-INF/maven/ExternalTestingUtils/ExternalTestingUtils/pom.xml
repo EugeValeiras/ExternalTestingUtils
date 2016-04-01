@@ -127,13 +127,6 @@
 			<version>${junit-dep}</version>
 		</dependency>
 
-		<!-- SELENIUM -->
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>${selenium.version}</version>
-		</dependency>
-
 		<!-- JAVA MAIL -->
 		<dependency>
 			<groupId>javax.mail</groupId>
@@ -205,7 +198,6 @@
 			<version>${spring-test}</version>
 		</dependency>
 
-
 		<!-- Hibernate -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -227,7 +219,6 @@
 			<artifactId>hibernate-entitymanager</artifactId>
 			<version>${hibernate.version}</version>
 		</dependency>
-
 
 		<!-- MySql Driver -->
 		<dependency>

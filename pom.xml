@@ -29,7 +29,7 @@
 		<!-- TESTS -->
 		<junit-Version>4.11</junit-Version>
 		<junit-dep>4.10</junit-dep>
-		<selenium.version>2.48.2</selenium.version>
+		<selenium.version>2.53.0</selenium.version>
 		<testNG-Version>6.9.4</testNG-Version>
 
 		<!-- DATA BASE -->
@@ -42,6 +42,9 @@
 		<slf4j.version>1.7.10</slf4j.version>
 		<logback.version>1.0.13</logback.version>
 		<org.slf4j>1.7.5</org.slf4j>
+		
+		<!-- My Utils -->
+		<slack-utils>8e2baf21e381171246f5fcda7690f0acdaa08dc5</slack-utils>
 	</properties>
 
 	<dependencies>
@@ -308,7 +311,7 @@
 		<dependency>
 			<groupId>com.github.EugeValeiras</groupId>
 			<artifactId>SlackUtils</artifactId>
-			<version>30194d57eb33d0d407cdb412a4618a505658c6c2</version>
+			<version>${slack-utils}</version>
 		</dependency>
 	</dependencies>
 
